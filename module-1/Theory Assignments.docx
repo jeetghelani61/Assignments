@@ -1,0 +1,92 @@
+ 1. Benefits of Using Flutter Over Other Cross-Platform Frameworks
+Single Codebase: Write once, run on Android, iOS, web, desktop, etc.
+
+
+Hot Reload: Instantly see code changes without restarting the app.
+
+
+High Performance: Uses Dart and Skia (its own rendering engine) for smooth UI.
+
+
+Custom UI: Easily build complex UIs with built-in rich widgets.
+
+
+Strong Community & Support: Backed by Google with a growing ecosystem.
+
+
+Open Source: Free and actively maintained.
+
+
+
+2. Role of Dart in Flutter & Its Advantages for Mobile Development
+Primary Language: Dart is the official language used to write Flutter apps.
+
+
+Fast Compilation: Supports both JIT (for development) and AOT (for release) compilation.
+
+
+Easy Syntax: Clean, object-oriented syntax similar to JavaScript or Java.
+
+
+UI as Code: Dart allows Flutter to build UI components in code declaratively.
+
+
+Asynchronous Support: Built-in async/await for smooth handling of async tasks.
+
+
+
+ 3. Steps to Set Up a Flutter Development Environment
+Install Flutter SDK: Download from flutter.dev.
+
+
+Set Environment Variables: Add Flutter to system path.
+
+
+Install IDE: Use VS Code or Android Studio.
+
+
+Install Flutter & Dart Plugins: From IDE extensions.
+
+
+Run flutter doctor: Checks for missing dependencies.
+
+
+Set Up Emulator/Device: Use Android Emulator or a physical device.
+
+
+Create New Project: Run flutter create project_name.
+
+
+Run the App: Use flutter run in terminal or via IDE.
+
+
+
+ 4. Basic Flutter App Structure
+main.dart: The entry point of every Flutter app. Located in lib/ folder.
+
+
+main() function: Starts the app by calling runApp().
+
+
+runApp(): Inflates the root widget and displays it on the screen.
+
+
+Widget Tree:
+
+
+Everything in Flutter is a widget (text, layout, buttons, etc.).
+
+
+Widgets are arranged in a tree-like structure to build the UI.
+
+
+Two main widget types:
+
+
+StatelessWidget: UI that doesn't change.
+
+
+StatefulWidget: UI that can change dynamically.
+
+
+
